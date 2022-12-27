@@ -1,0 +1,84 @@
+:root {
+    --main-font-family: 'Neucha', cursive;
+    --background: #cab7fc;
+    --border-btn: 1px solid #6c63ff;
+    --padding: 20px;
+    --main-color: #6c63ff;
+}
+
+.navigation {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+}
+.main,
+.about {
+    margin: 100px 0;
+    text-align: center;
+    font-family: var(--main-font-family);
+}
+.name {
+    padding: var(--padding);
+    font-size: 86px;
+}
+.hello {
+    font-size: 50px;
+}
+.profession {
+    margin-bottom: 50px;
+}
+.profession,
+.profession-from {
+    opacity: 0.7;
+}
+.about-paragraphs {
+    margin: 30px 15px 40px;
+    opacity: 0.9;
+}
+.project-heager {
+    font-size: 42px;
+}
+.contact-button,
+.about-button,
+.primary-link {
+    border: var(--border-btn);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 0 20px;
+}
+.contact-button:hover,
+.about-button:hover {
+    color: #320d8f;
+}
+.contact-button,
+.primary-link {
+    padding: var(--padding);
+    background-color: var(--main-color);
+    color: white;
+}
+.about-button {
+    padding: 20px 25px;
+    color: var(--main-color);
+}
+.homepage-link,
+.mail-link {
+    color: var(--main-color);
+}
+.mail-link {
+    text-decoration: none;
+    font-size: 22px;
+}
+.homepage-link:hover,
+.mail-link:hover,
+.primary-link:hover {
+    color: #28067c;
+}
+#contact {
+    margin-top: 45px;
+    font-size: 38px;
+}
+.col {
+    background-color: var(--background);
+    margin: 0 5px;
+    padding: var(--padding);
+}
