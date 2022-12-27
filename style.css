@@ -23,6 +23,15 @@
 .hello {
     font-size: 50px;
 }
+@media (max-width:576px) {
+    .name {
+        font-size: 52px;
+        font-weight: 600;
+    }
+    .hello {
+        font-size: 34px;
+    }
+}
 .profession {
     margin-bottom: 50px;
 }
@@ -34,8 +43,13 @@
     margin: 30px 15px 40px;
     opacity: 0.9;
 }
-.project-heager {
+.project-heading {
     font-size: 42px;
+}
+@media (max-width:576px) {
+    .project-heading {
+        font-size: 34px;
+    }
 }
 .contact-button,
 .about-button,
@@ -76,6 +90,14 @@
 #contact {
     margin-top: 45px;
     font-size: 38px;
+}
+@media (max-width:576px) {
+    #contact {
+        font-size: 32px;
+    }
+    .mail-link {
+        font-size: 20px;
+    }
 }
 .col {
     background-color: var(--background);
